@@ -57,7 +57,7 @@ yarn dev
 ```
 
 ## Usage
-#### 1. Open your browser and navigate to http://localhost:3000.
+#### 1. Open your browser and navigate to http://localhost:5173.
 #### 2. Upload a document file using the file input.
 #### 3. Click the "Upload and Summarize" button.
 #### 4. View the summarized text in the textbox provided.
@@ -77,7 +77,7 @@ yarn dev
 - ##### Other: Flask-CORS, Axios
 
 ## Additional Notes
-- Ensure the Flask server is running on http://localhost:5000 and the React frontend is running on http://localhost:3000.
+- Ensure the Flask server is running on http://localhost:5000 and the React frontend is running on http://localhost:5173.
 - The Flask server uses GPT-2 for text summarization. Ensure you have enough memory to load the model.
 ## Troubleshooting
 #### If you encounter any issues, consider the following steps:
