@@ -64,17 +64,17 @@ yarn dev
 
 ## Endpoints
 ### POST /upload
-##### Description: Upload a document file and extract its text content.
-##### Request: Multipart form-data with a file.
-##### Response: JSON containing the extracted text.
+- ##### Description: Upload a document file and extract its text content.
+- ##### Request: Multipart form-data with a file.
+- ##### Response: JSON containing the extracted text.
 ### POST /summarize
-##### Description: Summarize the provided text using GPT-2.
-##### Request: JSON containing the text to be summarized.
-##### Response: JSON containing the summarized text.
+- ##### Description: Summarize the provided text using GPT-2.
+- ##### Request: JSON containing the text to be summarized.
+- ##### Response: JSON containing the summarized text.
 ### Technologies Used
-##### Backend: Flask, Transformers, PyTorch
-##### Frontend: React, Tailwind CSS
-##### Other: Flask-CORS, Axios
+- ##### Backend: Flask, Transformers, PyTorch
+- ##### Frontend: React, Tailwind CSS
+- ##### Other: Flask-CORS, Axios
 
 ## Additional Notes
 - Ensure the Flask server is running on http://localhost:5000 and the React frontend is running on http://localhost:3000.
